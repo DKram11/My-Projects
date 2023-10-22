@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.btn {
+  background-color: transparent;
+  border-style: solid;
+  border-color: black; 
+  border-width: 2px;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
