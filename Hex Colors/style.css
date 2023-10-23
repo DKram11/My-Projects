@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  animation: changecolor 5s infinite alternate;
+}
+#btn {
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: black;
+  padding: 8px;
+  background-color: transparent;
+  
+}
+@keyframes changecolor{
+  0%{
+    color: red;
+  }
+  20%{
+    color: maroon;
+  }
+  40%{
+    color: orange;
+  }
+  60%{
+    color: yellow;
+  }
+  80%{
+    color: green;
+  }
+  100%{
+    color: violet;
+  }
